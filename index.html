@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio personal - Allison Ruiz</title>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Allison Ruiz</h1>
+        <p>Estudiante de tercer semestre apasionada por la tecnologia</p>
+        <img src="/deberes/img/IMG_20221119_144456_989.jpg" alt="Foto de Allison Ruiz" height="2%"  width="10%">
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="#sobremi">Sobre mí</a> |
+        <a href="#intereses">Intereses</a> |
+        <a href="#habilidades">Habilidades</a> |
+        <a href="#multimedia">Multimedia</a> |
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <hr>
+
+    <!-- Sección Sobre mí -->
+    <section id="sobremi">
+        <h2>Sobre mí</h2>
+        <p>
+            Hola, soy <strong>Allison Scarleth Ruiz Montero</strong>, una chica de 18 años que le gusta aprender cosas de tecnologia aunque no sea tan buena en ello.
+            Me gusta mucho la naturaleza, la tecnología, y ayudar a las personas.
+            Para mi en lo personal la carrera <mark>Sistemas de informacion</mark> es una carrera muy interesante ya que abarca la tecnologia y sus conceptos.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- Lista de intereses o logros -->
+    <section id="intereses">
+        <h2>Mis intereses en la vida</h2>
+        <ul>
+            <li>Aprender cosas nuevas sobre la carrera</li>
+            <li>Participar en proyectos académicos</li>
+            <li>Graduarme en Ingenieria</li>
+            <li>Ser una excelente profesional</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- Tabla de habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <table border="1" cellpadding="5">
+            <thead>
+                <tr>
+                    <th>Habilidad</th>
+                    <th>Nivel</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Empatia</td>
+                    <td>Alto</td>
+                    <td>Me gusta comprender a las personas y ayudarlas.</td>
+                </tr>
+                <tr>
+                    <td>Organización</td>
+                    <td>Intermedio</td>
+                    <td>Platifico todas mis actividades con tiempo.</td>
+                </tr>
+                <tr>
+                    <td>Tecnología</td>
+                    <td>Intermedio</td>
+                    <td>Manejo lo bien básico en HTML.</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Siempre aprendiendo y mejorando mis habilidades</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Multimedia -->
+    <section id="multimedia">
+        <h2>Presentación personal</h2>
+        <video controls width="320">
+            <source src="/deberes/video/WIN_20251115_18_56_45_Pro.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </section>
+
+    <hr>
+
+    <!-- Formulario de contacto -->
+    <section id="contacto">
+        <h2>Contáctame</h2>
+        <form>
+            <label>Nombre:</label>
+            <input type="text" name="nombre" required><br><br>
+
+            <label>Correo:</label>
+            <input type="email" name="correo" required><br><br>
+
+            <label>Edad:</label>
+            <input type="number" name="edad" min="10" max="100" required><br><br>
+
+            <label>Género:</label>
+            <select name="genero" required>
+                <option value="">Seleccione...</option>
+                <option value="femenino">Femenino</option>
+                <option value="masculino">Masculino</option>
+                <option value="otro">Otro</option>
+            </select><br><br>
+
+            <label>Intereses:</label>
+            <input type="text" name="intereses"><br><br>
+
+            <label>Comentarios:</label><br>
+            <textarea name="comentarios" rows="4" cols="40"></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Sígueme en:|
+            <a href="https://www.instagram.com/allisonmonteroo/#" target="_blank">Instagram</a> |
+        </p>
+    </footer>
+
+</body>
+</html>
